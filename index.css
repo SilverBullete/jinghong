@@ -1,0 +1,53 @@
+body{
+	position: relative;
+	margin: 0px;
+	padding: 0px;
+	font-family: "等线";
+	width: 1920px;
+	height: 1080px;
+    background: black;
+}
+.back{
+	position: absolute;
+	margin: 0px;
+	top: 0px;
+	left: 0px;
+}
+.title{
+	position: absolute;
+	width: 1920px;
+	top: 30px;
+	font-size: 60px;
+	color: white;
+}
+.search{
+	position: absolute;
+    top: 200px;
+    left: 80px;
+	background: rgba(0,0,0,0);
+    padding-left:20px;
+    padding-right:20px;
+    padding-bottom:20px;
+    width: 450px;
+    font-size: 25px;
+    color: white;
+}
+.ps{
+    opacity: 0.2;
+    border: 1px white solid;
+    position: absolute;
+    right: 30px;
+    top: 30px;
+    height: 120px;
+    width: 120px;
+    color: white;
+    font-size: 25px;
+}
+.output{
+    position: absolute;
+    width: 600px;
+    height: 600px;
+    left: 1000px;
+    top: 50px;
+    background: rgba(0,0,200,0.2);
+}
